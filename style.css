@@ -1,6 +1,12 @@
 body {
-    font-family: roboto, arial;
+    font-family: roboto-light, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1, .section2, .section3, .section4 {
+    padding: 100px 100px 100px 100px;
     display: flex;
     flex-direction: column;
 }
@@ -10,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    padding-top: 10px;
 }
 
 .header {
@@ -43,12 +50,6 @@ ul {
     gap: 40px;
 }
 
-.section1, .section2, .section3, .section4 {
-    padding: 10px 100px 100px 100px;
-    display: flex;
-    flex-direction: column;
-}
-
 h1 {
     font-size: 48px;
     font-weight: bolder;
@@ -78,7 +79,7 @@ h1 {
     width: 50%;
 }
 
-button {
+.heromessage>button {
     background-color: #3882F6;
     padding: 10px 30px;
     border-radius: 10px;
@@ -108,15 +109,67 @@ h2 {
     border-style: solid;
     width: 180px;
     height: 180px;
-    margin: 10px 20px;
+    margin: 10px 20px 5px 20px;
 }
 
 .plant>p {
     margin: 0 20px;
     display: flex;
     flex-wrap: wrap;
-    color: #a6a6a7;
+    color: #666666;
     text-align: center;
     justify-content: center;
     width: 180px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.quote>p {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+blockquote {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-family: roboto-lightitalic;
+    color: #1F2937;
+    margin: 0px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 30px 100px;
+    margin: 0px 100px;
+}
+
+button {
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    box-sizing: 2px;
+    border-style: solid;
+    padding: 5px 25px;
+    background-color: #3882F6;
+}
+
+.message>p {
+    font-size: 18px;
+    margin-top: -15px;
 }
