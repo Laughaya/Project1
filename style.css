@@ -39,7 +39,7 @@ a {
 ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 30px;
     margin-left: auto;
 }
 
@@ -172,4 +172,13 @@ button {
 .message>p {
     font-size: 18px;
     margin-top: -15px;
+}
+
+footer {
+    background-color: #1F2937;
+    justify-content: center;
+    color: #F9FAF8;
+    height: 70px;
+    display: flex;
+    align-items: center;
 }
